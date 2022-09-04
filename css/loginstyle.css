@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e9ebee;
+    font-family: sans-serif;
+}
+.login-box {
+    width: 396px;
+    height: 420px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow:  0 8px 16px rgb(0 0 0 / 10%);
+    margin: auto;
+}
+.logo {
+     margin: -110px 0 0 33%; 
+    width: 240px;
+    position: absolute;
+}
+.login-head {
+    text-align: center;
+    line-height: 22px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    padding: 24px 0 16px 0;
+    padding: 18px 0;
+}
+.form-container {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+.login-form {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;    
+}
+.username-container,
+.password-container,
+.button-container {
+    width: 364px;
+    margin: auto; 
+    padding: 6px 0;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+.input-user,
+.input-pass {
+    border-radius: 6px;
+    font-size: 17px;
+    font-family: inherit;
+    padding: 14px 16px;
+    width: 330px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+.butt {
+    width: 332px;
+    border-radius: 6px;
+    line-height: 48px;
+    appearance: auto;
+    background-color: #1877f2;
+    border-color: #1877f2;
+    color: #fff;
+    font-size: 20px;
+    font-family: inherit;
+    cursor: pointer;
+    box-sizing: content-box;
+    margin-top: 10px;
+    border: none;
+}
+.forgot-pass,
+.new-acc {
+    padding: 15px 0 0 0;
+    font-family: inherit;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
